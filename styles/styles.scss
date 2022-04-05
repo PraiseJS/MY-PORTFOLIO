@@ -60,6 +60,7 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    padding: 0;
 }
 
 .sec2{
@@ -96,10 +97,10 @@ section{
     transform: translateY(-50%);
 
     .active-btn{
-        background-color: var(--color-secondary);
+        background-color: var(--color-secondary) !important;
         transition: all 4s ease-in-out;
         i{
-            color: var(--color-white);
+            color: var(--color-white) !important;
         }
     }
     .control{
