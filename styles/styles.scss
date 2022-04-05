@@ -18,7 +18,7 @@
     --color-grey-5: #2a2e35;
     --color-grey-6: #12181b;
     --br-sm-2: 14px;
-    --box-shadow-1: 0 3px 15px rgba(0, 0, .3);
+    --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
 }
 
 body{
@@ -60,7 +60,7 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    padding: 0;
+    padding: 0 !important;
     background-color: rgba(161, 228, 38, 0.849);
 }
 
@@ -84,6 +84,10 @@ section{
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+}
+
+.active{
+    display: block;
 }
 
 //controls
