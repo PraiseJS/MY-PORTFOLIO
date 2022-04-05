@@ -13,6 +13,11 @@ function pageTransitions(){
             this.className += ' active-btn';
         })
     }
+
+    //sections Active class
+    allSections.addEventListener('click', (0) =>{
+        const id = e.target.dataset.id;
+    })
 }
 
 pageTransitions();
